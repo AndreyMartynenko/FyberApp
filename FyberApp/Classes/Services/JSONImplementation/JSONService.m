@@ -96,7 +96,7 @@
      */
     
     /*
-     Please correct me here, because no matter how I'm concatenating response body with API key, I never get hash value equal to response signature.
+     Please advice me here, because no matter how I'm concatenating response body with API key, I never get hash value equal to response signature.
      Should it be: firstKey=firstValue&..lastKey=lastValue&API_KEY, [RESPONSE]&API_KEY, etc. ?
      */
     

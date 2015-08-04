@@ -41,7 +41,7 @@ static NSString * const NoOffersCellIdentifier = @"NoOffersCell";
     [super viewDidAppear:animated];
     
     // Set title to refresh control
-    NSString *title = @"Fetching coupons...";
+    NSString *title = @"Fetching offers...";
     NSDictionary *attrsDictionary = [NSDictionary dictionaryWithObject:[UIColor whiteColor]
                                                                 forKey:NSForegroundColorAttributeName];
     self.refreshControl.attributedTitle = [[NSAttributedString alloc] initWithString:title attributes:attrsDictionary];

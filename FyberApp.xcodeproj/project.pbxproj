@@ -272,10 +272,10 @@
 		84A1C21E1B704EA400D798F2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84A1C21F1B704EA400D798F2 /* NoOffersCell.h */,
-				84A1C2201B704EA400D798F2 /* NoOffersCell.m */,
 				84A1C2211B704EA400D798F2 /* OfferCell.h */,
 				84A1C2221B704EA400D798F2 /* OfferCell.m */,
+				84A1C21F1B704EA400D798F2 /* NoOffersCell.h */,
+				84A1C2201B704EA400D798F2 /* NoOffersCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
