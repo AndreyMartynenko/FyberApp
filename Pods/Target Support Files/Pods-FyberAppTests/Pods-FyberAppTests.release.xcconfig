@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/FyberSDK" "${PODS_ROOT}/Headers/Public/NSHash" "${PODS_ROOT}/Headers/Public/OrderedDictionary"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/FyberSDK/Fyber_iOS_SDK_v.7.2.5/sponsorpay-sdk-lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/FyberSDK" -isystem "${PODS_ROOT}/Headers/Public/NSHash" -isystem "${PODS_ROOT}/Headers/Public/OrderedDictionary"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-FyberAppTests-AFNetworking" -l"Pods-FyberAppTests-NSHash" -l"Pods-FyberAppTests-OrderedDictionary" -l"SponsorPaySDK-7.2.5" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "Foundation" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AdSupport" -weak_framework "StoreKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

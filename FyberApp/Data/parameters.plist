@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appid</key>
+	<string>2070</string>
+	<key>format</key>
+	<string>json</string>
+	<key>ip</key>
+	<string>109.235.143.113</string>
+	<key>locale</key>
+	<string>DE</string>
+	<key>offer_types</key>
+	<string>112</string>
+	<key>uid</key>
+	<string>spiderman</string>
+</dict>
+</plist>
