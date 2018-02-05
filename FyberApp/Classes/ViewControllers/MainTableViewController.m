@@ -62,6 +62,8 @@ static NSString * const NoOffersCellIdentifier = @"NoOffersCell";
         [self.tableView reloadData];
         [self updateRefreshControlWithTimestamp];
         
+        NSLog(@"__message: %@", response.message);
+        
     } failure:^(NSError *error) {
         NSLog(@"__failure");
         
